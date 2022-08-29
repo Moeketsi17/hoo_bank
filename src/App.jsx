@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './style';
+import { Navbar, Billing, Business, CardDeals, Client, CTA, Footer, Hero, Stats, Testimonials } from './components';
 
 const App = () => {
   return (
@@ -7,28 +8,28 @@ const App = () => {
       {/* navbar section */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          Navbar
+          <Navbar />
         </div>
       </div>
 
       {/* hero section */}
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero />
         </div>
       </div>
 
       {/* hero section */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Stats
-          Business
-          Billing
-          card
-          testimonial
-          client
-          ctA
-          footer
+          <Stats />
+          <Business />
+          <Billing />
+          <CardDeals />
+          <Testimonials />
+          <Client />
+          <CTA />
+          <Footer />
         </div>
       </div>
     </div>
