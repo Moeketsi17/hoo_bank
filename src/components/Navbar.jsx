@@ -1,5 +1,5 @@
 import {useState}from 'react'
-import {close, logo, menu} from '../constants';
+import {logo, menu} from '../constants';
 
 const Navbar = () => {
   return (
